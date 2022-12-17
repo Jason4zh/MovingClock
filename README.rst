@@ -1,4 +1,4 @@
-MovingClock \_ Making Moving Clock
+MovingClock \_ 生成动态时钟
 ==================================
 
 |License| |Pypi| |Author|
@@ -33,6 +33,12 @@ MovingClock \_ Making Moving Clock
 
    MovingClock.main()
 
+**！注意事项！**
+
+import MovingClock √
+
+import movingclock ×
+
 关于作者
 --------
 Author
@@ -43,7 +49,9 @@ Email
 
 *13640817984@163.com*
 
-Made In China
+Package
+
+*https://pypi.org/project/MovingClock/*
 
 
 ::

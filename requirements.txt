@@ -1,2 +1,2 @@
-zhdate
-datetime
+zhdate>=0.1
+datetime>=4.8
