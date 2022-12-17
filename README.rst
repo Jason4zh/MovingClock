@@ -18,7 +18,28 @@ MovingClock \_ Making Moving Clock
 
    pip install MovingClock --upgrade
 
-*Author:Jason4zh* *email:13640817984@163.com* *Made In China*
+使用方法
+--------
+
+导入
+
+::
+
+   import MovingClock
+
+使用
+
+::
+
+   MovingClock.main()
+
+关于作者
+--------
+Author
+*Jason4zh*
+Email
+*13640817984@163.com*
+Made In China
 
 .. |License| image:: https://img.shields.io/pypi/l/MovingClock
    :target: https://github.com/Jason4zh/MovingClock/blob/main/LICENSE.txt
