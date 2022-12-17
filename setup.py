@@ -3,12 +3,12 @@
 
 from setuptools import setup, find_packages
 
-with open('README.rst','r') as f:
+with open('README.rst','r',encoding="utf8") as f:
     long_description=f.read()
 
 setup(
     name='MovingClock',
-    version='1.0.6',
+    version='2.0.0',
     description=(
         'This is a package which can make a MovingClock'
     ),

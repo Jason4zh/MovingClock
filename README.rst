@@ -1,20 +1,28 @@
-MovingClock
-===========
+MovingClock \_ Making Moving Clock
+==================================
 
+|License| |Pypi| |Author|
 
-**This is a package which can make a MovingClock**
+安装方法
+--------
 
+通过 pip 直接安装
 
-How to use:
-import MovingClock
-MovingClock.main()
+::
 
+   pip install MovingClock
 
-Install Requires:
-1.zhdate
-2.datetime
+更新
 
+::
 
-*Author:Jason4zh*
-*email:13640817984@163.com*
-*Made In China*
+   pip install MovingClock --upgrade
+
+*Author:Jason4zh* *email:13640817984@163.com* *Made In China*
+
+.. |License| image:: https://img.shields.io/pypi/l/MovingClock
+   :target: https://github.com/Jason4zh/MovingClock/blob/main/LICENSE.txt
+.. |Pypi| image:: https://img.shields.io/badge/pypi-v2.0.0-green
+   :target: https://pypi.org/project/MovingClock/
+.. |Author| image:: https://img.shields.io/badge/Author-Jason4zh-blue
+   :target: https://pypi.org/user/Jason4zh/

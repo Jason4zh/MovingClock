@@ -1,0 +1,3 @@
+import MovingClock
+
+MovingClock.main()
