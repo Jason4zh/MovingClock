@@ -36,10 +36,19 @@ MovingClock \_ Making Moving Clock
 关于作者
 --------
 Author
+
 *Jason4zh*
+
 Email
+
 *13640817984@163.com*
+
 Made In China
+
+
+::
+
+   print("Thank you for using!")
 
 .. |License| image:: https://img.shields.io/pypi/l/MovingClock
    :target: https://github.com/Jason4zh/MovingClock/blob/main/LICENSE.txt
