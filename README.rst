@@ -1,7 +1,7 @@
 MovingClock \_ 生成动态时钟
 ==================================
 
-|License| |Pypi| |Author|
+|License| |Pypi| |Author| |Github|
 
 安装方法
 --------
@@ -61,6 +61,8 @@ Package
 .. |License| image:: https://img.shields.io/pypi/l/MovingClock
    :target: https://github.com/Jason4zh/MovingClock/blob/main/LICENSE.txt
 .. |Pypi| image:: https://img.shields.io/badge/pypi-v2.0.0-green
-   :target: https://pypi.org/project/MovingClock/
+   :target: https://pypi.org/project/MovingClock
 .. |Author| image:: https://img.shields.io/badge/Author-Jason4zh-blue
-   :target: https://pypi.org/user/Jason4zh/
+   :target: https://pypi.org/user/Jason4zh
+.. |Github| image:: https://img.shields.io/badge/Github-Jason4zh-red
+   :target: https://github.com/Jason4zh/MovingClock
