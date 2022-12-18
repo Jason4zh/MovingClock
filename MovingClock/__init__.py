@@ -25,7 +25,7 @@ def mkHand(name, length, size):
     handForm = turtle.get_poly()
     turtle.register_shape(name, handForm)
 
-#BELLfunctions
+#BELLfunction
 def button(x, y):
     global houclock, minclock, ifclock
     if x < 20 and x > -20 and y < 350 and y > 250:
@@ -47,7 +47,7 @@ def button(x, y):
             ifclock=1
     
 
-#INITfuntions
+#INITfuntion
 def init():
     global secHand, minHand, houHand, printer, buttoner
     turtle.mode("logo")
@@ -75,7 +75,7 @@ def init():
     printer.hideturtle()
     printer.penup()
 
-#CLOCKfunctions
+#CLOCKfunction
 def setupClock(radius):
     turtle.reset()
     turtle.hideturtle()
@@ -128,7 +128,7 @@ def ndate(t):
     d = t.day
     return lunar_date.from_datetime(datetime(y, m, d))
 
-#TICKfunctions
+#TICKfunction
 def tick():
     global houclock,minclock,ifclock
     t = datetime.today()
@@ -153,7 +153,7 @@ def tick():
                   font=("Courier", 14, "bold"))
     printer.home()
     if houclock == datetime.today().hour and minclock == datetime.today().minute and ifclock == 1:
-        os.system("start "+os.path.dirname(os.path.abspath(__file__))+"\%d.mp3" % randint(1,3))
+        os.system("start "+os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+"\src\%d.mp3" % randint(1,3))
         turtle.textinput("闹钟", "时间到啦！")
         ifclock = 0
     turtle.tracer(True)
