@@ -8,9 +8,9 @@ with open('README.rst','r',encoding="utf8") as f:
 
 setup(
     name='MovingClock',
-    version='3.0.1',
+    version='3.0.6',
     description=(
-        'This is a package which can make a MovingClock'
+        'This is a package which can make a MovingClock.'
     ),
     long_description=long_description,
     author='Jason4zh',

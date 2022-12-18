@@ -1,3 +1,5 @@
+
+
 MovingClock \_ 生成动态时钟
 ==================================
 
@@ -58,15 +60,16 @@ Package
 
    print("Thank you for using!")
 
-**本次更新修改v3.0.1**
 
-1.修复了闹钟无法播放音乐的问题
 
-2.修复了路径获取问题
+本次更新修改v3.0.6
+------------------
+
+1. 修复了RST文件标题不显示的错误
 
 .. |License| image:: https://img.shields.io/pypi/l/MovingClock
-   :target: https://github.com/Jason4zh/MovingClock/blob/main/LICENSE.txt
-.. |Pypi| image:: https://img.shields.io/pypi/v/MovingClock
+   :target: https://github.com/Jason4zh/MovingClock/blob/main/LICENSE
+.. |Pypi| image:: https://img.shields.io/badge/Pypi-v3.0-blue
    :target: https://pypi.org/project/MovingClock
 .. |Author| image:: https://img.shields.io/badge/Author-Jason4zh-green
    :target: https://pypi.org/user/Jason4zh
