@@ -153,7 +153,7 @@ def tick():
                   font=("Courier", 14, "bold"))
     printer.home()
     if houclock == datetime.today().hour and minclock == datetime.today().minute and ifclock == 1:
-        os.system("start "+os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+"\src\%d.mp3" % randint(1,3))
+        os.system("start "+os.path.dirname(os.path.abspath(__file__))+"\src\%d.mp3" % randint(1,3))
         turtle.textinput("闹钟", "时间到啦！")
         ifclock = 0
     turtle.tracer(True)
@@ -168,4 +168,7 @@ def main():
     tick()
     print("Clock is Spawned")
     turtle.mainloop()
+
+if __name__ == '__main__':
+    main()
 
